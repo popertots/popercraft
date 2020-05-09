@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii ",
+    "iI ",
+    " I "
+  ],
+  "key": {
+    "i": {
+      "item": "popercraft:malachite_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "popercraft:malachite_axe"
+  }
+}

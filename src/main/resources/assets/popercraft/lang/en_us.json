@@ -1,0 +1,49 @@
+{
+  "itemGroup.Popercraft": "Popercraft",
+
+  "item.popercraft.mithril_ingot": "Mithril Ingot",
+  "item.popercraft.malachite_ingot": "Malachite Ingot",
+  "item.popercraft.malachite_dust": "Malachite Dust",
+  "item.popercraft.orichalcum_ingot": "Orichalcum Ingot",
+  "item.popercraft.ring_item": "Ring",
+  "item.popercraft.endrium": "Endrium",
+
+  "block.popercraft.mithril_ore": "Mithril Ore",
+  "block.popercraft.malachite_ore": "Malachite Ore",
+  "block.popercraft.orichalcum_ore": "Orichalcum Ore",
+  "block.popercraft.endrium_ore": "Endrium Ore",
+
+  "block.popercraft.mithril_block": "Mithril Block",
+  "block.popercraft.malachite_block": "Malachite Block",
+  "block.popercraft.orichalcum_block": "Orichalcum Block",
+  "block.popercraft.endrium_block": "Endrium Block",
+
+  "block.popercraft.citrus_leaves": "Citrus Leaves",
+  "block.popercraft.lemon_log": "Lemon Log",
+  "block.popercraft.lemon_planks": "Lemon Planks",
+  "block.popercraft.lemon_sapling": "Lemon Sapling",
+
+  
+  "item.popercraft.mithril_sword": "Mithril Sword",
+  "item.popercraft.mithril_pickaxe": "Mithril Pickaxe",
+  "item.popercraft.mithril_shovel": "Mithril Shovel",
+  "item.popercraft.mithril_axe": "Mithril Axe",
+  "item.popercraft.mithril_hoe": "Mithril Hoe",
+  
+  "item.popercraft.malachite_sword": "Malachite Sword",
+  "item.popercraft.malachite_pickaxe": "Malachite Pickaxe",
+  "item.popercraft.malachite_shovel": "Malachite Shovel",
+  "item.popercraft.malachite_axe": "Malachite Axe",
+  "item.popercraft.malachite_hoe": "Malachite Hoe",
+  
+  "item.popercraft.orichalcum_sword": "Orichalcum Sword",
+  "item.popercraft.orichalcum_pickaxe": "Orichalcum Pickaxe",
+  "item.popercraft.orichalcum_shovel": "Orichalcum Shovel",
+  "item.popercraft.orichalcum_axe": "Orichalcum Axe",
+  "item.popercraft.orichalcum_hoe": "Orichalcum Hoe",
+  
+  "item.popercraft.milk_bowl": "Milk Bowl",
+  "item.popercraft.cheese": "Cheese",
+  "item.popercraft.pizza": "Pizza",
+  "item.popercraft.meat_pizza": "Sausage Pizza"
+}

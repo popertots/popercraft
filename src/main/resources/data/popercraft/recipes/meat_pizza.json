@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i  ",
+    "I  ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "I": {
+      "item": "popercraft:pizza"
+    }
+  },
+  "result": {
+    "item": "popercraft:meat_pizza"
+  }
+}

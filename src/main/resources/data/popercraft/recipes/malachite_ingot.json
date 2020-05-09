@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii ",
+    "ii ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "item": "popercraft:malachite_dust"
+    }
+  },
+  "result": {
+    "item": "popercraft:malachite_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "popercraft:endrium_block"
+    }
+  ],
+  "result": {
+    "item": "popercraft:endrium",
+    "count": 9
+  }
+}

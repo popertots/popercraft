@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "popercraft:milk_bowl"
+  },
+  "result": "popercraft:cheese",
+  "experience": 0.3,
+  "cookingtime": 200
+}

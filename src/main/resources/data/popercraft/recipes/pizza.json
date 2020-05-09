@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i  ",
+    "I  ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "item": "popercraft:cheese"
+    },
+    "I": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "popercraft:pizza"
+  }
+}

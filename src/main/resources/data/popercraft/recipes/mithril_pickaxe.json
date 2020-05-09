@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "i": {
+      "item": "popercraft:mithril_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "popercraft:mithril_pickaxe"
+  }
+}

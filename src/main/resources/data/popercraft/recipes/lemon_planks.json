@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "popercraft:lemon_log"
+    }
+  ],
+  "result": {
+    "item": "popercraft:lemon_planks",
+    "count": 4
+  }
+}

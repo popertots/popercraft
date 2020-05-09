@@ -1,8 +1,7 @@
 package com.popertots.popercraft.init;
 
 import com.popertots.popercraft.Popercraft;
-import com.popertots.popercraft.objects.blocks.CitrusSaplingBlock;
-import com.popertots.popercraft.objects.blocks.EndriumBlock;
+import com.popertots.popercraft.objects.blocks.*;
 import com.popertots.popercraft.world.feature.LemonTree;
 import com.popertots.popercraft.world.feature.LimeTree;
 import com.popertots.popercraft.world.feature.OrangeTree;
@@ -40,24 +39,24 @@ public class BlockInit {
     public static final RegistryObject<Block> endrium_block = BLOCKS.register("endrium_block", () -> new EndriumBlock(
             Block.Properties.from(Blocks.COAL_BLOCK)));
 
-    public static final RegistryObject<Block> citrus_leaves = BLOCKS.register("citrus_leaves", () -> new LeavesBlock(
+    public static final RegistryObject<Block> citrus_leaves = BLOCKS.register("citrus_leaves", () -> new ModLeavesBlock(
             Block.Properties.from(Blocks.OAK_LEAVES)));
 
-    public static final RegistryObject<Block> lemon_log = BLOCKS.register("lemon_log", () -> new LogBlock(MaterialColor.WOOD,
+    public static final RegistryObject<Block> lemon_log = BLOCKS.register("lemon_log", () -> new ModLogBlock(MaterialColor.WOOD,
             Block.Properties.from(Blocks.OAK_LOG)));
-    public static final RegistryObject<Block> lemon_planks = BLOCKS.register("lemon_planks", () -> new Block(
+    public static final RegistryObject<Block> lemon_planks = BLOCKS.register("lemon_planks", () -> new ModPlankBlock(
             Block.Properties.from(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> lemon_sapling = BLOCKS.register("lemon_sapling", () -> new CitrusSaplingBlock( () -> new LemonTree(), Block.Properties.from(Blocks.OAK_SAPLING)));
 
-    public static final RegistryObject<Block> orange_log = BLOCKS.register("orange_log", () -> new LogBlock(MaterialColor.WOOD,
+    public static final RegistryObject<Block> orange_log = BLOCKS.register("orange_log", () -> new ModLogBlock(MaterialColor.WOOD,
             Block.Properties.from(Blocks.OAK_LOG)));
-    public static final RegistryObject<Block> orange_planks = BLOCKS.register("orange_planks", () -> new Block(
+    public static final RegistryObject<Block> orange_planks = BLOCKS.register("orange_planks", () -> new ModPlankBlock(
             Block.Properties.from(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> orange_sapling = BLOCKS.register("orange_sapling", () -> new CitrusSaplingBlock( () -> new OrangeTree(), Block.Properties.from(Blocks.OAK_SAPLING)));
 
-    public static final RegistryObject<Block> lime_log = BLOCKS.register("lime_log", () -> new LogBlock(MaterialColor.WOOD,
+    public static final RegistryObject<Block> lime_log = BLOCKS.register("lime_log", () -> new ModLogBlock(MaterialColor.WOOD,
             Block.Properties.from(Blocks.OAK_LOG)));
-    public static final RegistryObject<Block> lime_planks = BLOCKS.register("lime_planks", () -> new Block(
+    public static final RegistryObject<Block> lime_planks = BLOCKS.register("lime_planks", () -> new ModPlankBlock(
             Block.Properties.from(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> lime_sapling = BLOCKS.register("lime_sapling", () -> new CitrusSaplingBlock( () -> new LimeTree(), Block.Properties.from(Blocks.OAK_SAPLING)));
 

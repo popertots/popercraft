@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "popercraft:orange_log"
+    }
+  ],
+  "result": {
+    "item": "popercraft:orange_planks",
+    "count": 4
+  }
+}

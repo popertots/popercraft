@@ -45,6 +45,16 @@ public class ItemInit {
             () -> new Item(new Item.Properties().group(Popercraft.PopercraftItemGroup.instance).food(new Food.Builder().hunger(14)
                     .saturation(2).build())));
 
+    public static final RegistryObject<Item> lemon = ITEMS.register("lemon",
+            () -> new Item(new Item.Properties().group(Popercraft.PopercraftItemGroup.instance).food(new Food.Builder().hunger(3)
+                    .saturation(0.0f).build())));
+    public static final RegistryObject<Item> orange = ITEMS.register("orange",
+            () -> new Item(new Item.Properties().group(Popercraft.PopercraftItemGroup.instance).food(new Food.Builder().hunger(3)
+                    .saturation(0.0f).build())));
+    public static final RegistryObject<Item> lime = ITEMS.register("lime",
+            () -> new Item(new Item.Properties().group(Popercraft.PopercraftItemGroup.instance).food(new Food.Builder().hunger(3)
+                    .saturation(0.0f).build())));
+
 
     public static final RegistryObject<SwordItem> mithril_sword = ITEMS.register("mithril_sword",
             () -> new SwordItem(ModItemTiers.MITHRIL, 3, -2.4f,

@@ -1,5 +1,6 @@
 package com.popertots.popercraft;
 
+import com.popertots.popercraft.init.BiomeInit;
 import com.popertots.popercraft.init.BlockInit;
 import com.popertots.popercraft.init.ItemInit;
 import com.popertots.popercraft.world.gen.*;
@@ -7,6 +8,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -43,6 +45,7 @@ public class Popercraft
 
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
+        BiomeInit.BIOMES.register(modEventBus);
 
         instance = this;
         MinecraftForge.EVENT_BUS.register(this);
@@ -63,7 +66,10 @@ public class Popercraft
         LOGGER.debug("onRegisterItems: " + BlockInit.BLOCKS.getEntries().size());
     }
 
-
+    @SubscribeEvent
+    public static void onRegisterBiomes(final RegistryEvent.Register<Biome> event) {
+        BiomeInit.registerBiomes();
+    }
 
     private void setup(final FMLCommonSetupEvent event)
     {
@@ -71,9 +77,9 @@ public class Popercraft
     	malachiteOreGen.generateOre();
         orichalcumOreGen.generateOre();
         endriumOreGen.generateOre();
-        LemonTreeGen.generateTrees();
-        OrangeTreeGen.generateTrees();
-        LimeTreeGen.generateTrees();
+//        LemonTreeGen.generateTrees();
+//        OrangeTreeGen.generateTrees();
+//        LimeTreeGen.generateTrees();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {

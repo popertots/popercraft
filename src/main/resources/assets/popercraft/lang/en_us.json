@@ -51,5 +51,11 @@
   "item.popercraft.milk_bowl": "Milk Bowl",
   "item.popercraft.cheese": "Cheese",
   "item.popercraft.pizza": "Pizza",
-  "item.popercraft.meat_pizza": "Sausage Pizza"
+  "item.popercraft.meat_pizza": "Sausage Pizza",
+  "item.popercraft.lemon": "Lemon",
+  "item.popercraft.orange": "Orange",
+  "item.popercraft.lime": "Lime",
+
+  "biome.popercraft.citrus_biome": "Citrus Forrest"
+
 }

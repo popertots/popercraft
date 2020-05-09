@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "popercraft:lemon_sapling"
+    "popercraft:lemon_sapling",
+    "popercraft:orange_sapling",
+    "popercraft:lime_sapling"
   ]
 }

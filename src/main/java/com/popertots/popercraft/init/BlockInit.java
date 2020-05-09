@@ -4,6 +4,8 @@ import com.popertots.popercraft.Popercraft;
 import com.popertots.popercraft.objects.blocks.CitrusSaplingBlock;
 import com.popertots.popercraft.objects.blocks.EndriumBlock;
 import com.popertots.popercraft.world.feature.LemonTree;
+import com.popertots.popercraft.world.feature.LimeTree;
+import com.popertots.popercraft.world.feature.OrangeTree;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -40,10 +42,23 @@ public class BlockInit {
 
     public static final RegistryObject<Block> citrus_leaves = BLOCKS.register("citrus_leaves", () -> new LeavesBlock(
             Block.Properties.from(Blocks.OAK_LEAVES)));
+
     public static final RegistryObject<Block> lemon_log = BLOCKS.register("lemon_log", () -> new LogBlock(MaterialColor.WOOD,
             Block.Properties.from(Blocks.OAK_LOG)));
     public static final RegistryObject<Block> lemon_planks = BLOCKS.register("lemon_planks", () -> new Block(
             Block.Properties.from(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> lemon_sapling = BLOCKS.register("lemon_sapling", () -> new CitrusSaplingBlock( () -> new LemonTree(), Block.Properties.from(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<Block> orange_log = BLOCKS.register("orange_log", () -> new LogBlock(MaterialColor.WOOD,
+            Block.Properties.from(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> orange_planks = BLOCKS.register("orange_planks", () -> new Block(
+            Block.Properties.from(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> orange_sapling = BLOCKS.register("orange_sapling", () -> new CitrusSaplingBlock( () -> new OrangeTree(), Block.Properties.from(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<Block> lime_log = BLOCKS.register("lime_log", () -> new LogBlock(MaterialColor.WOOD,
+            Block.Properties.from(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> lime_planks = BLOCKS.register("lime_planks", () -> new Block(
+            Block.Properties.from(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> lime_sapling = BLOCKS.register("lime_sapling", () -> new CitrusSaplingBlock( () -> new LimeTree(), Block.Properties.from(Blocks.OAK_SAPLING)));
 
 }

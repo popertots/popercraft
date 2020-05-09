@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"axis=y":  { "model": "popercraft:block/lime_log" },
+		"axis=z":   { "model": "popercraft:block/lime_log", "x": 90 },
+		"axis=x":   { "model": "popercraft:block/lime_log", "x": 90, "y": 90 }
+	}
+}

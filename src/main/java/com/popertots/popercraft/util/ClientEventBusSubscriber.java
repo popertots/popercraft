@@ -14,5 +14,7 @@ public class ClientEventBusSubscriber {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(BlockInit.lemon_sapling.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.orange_sapling.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.lime_sapling.get(), RenderType.getCutout());
     }
 }

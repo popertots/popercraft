@@ -3,7 +3,6 @@ package com.popertots.popercraft;
 import com.popertots.popercraft.init.BlockInit;
 import com.popertots.popercraft.init.ItemInit;
 import com.popertots.popercraft.world.gen.*;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -72,7 +71,9 @@ public class Popercraft
     	malachiteOreGen.generateOre();
         orichalcumOreGen.generateOre();
         endriumOreGen.generateOre();
-        CitrusTreeGen.generateTrees();
+        LemonTreeGen.generateTrees();
+        OrangeTreeGen.generateTrees();
+        LimeTreeGen.generateTrees();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {

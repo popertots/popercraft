@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"axis=y":  { "model": "popercraft:block/orange_log" },
+		"axis=z":   { "model": "popercraft:block/orange_log", "x": 90 },
+		"axis=x":   { "model": "popercraft:block/orange_log", "x": 90, "y": 90 }
+	}
+}

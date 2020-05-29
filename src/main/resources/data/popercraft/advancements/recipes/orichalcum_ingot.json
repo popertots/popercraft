@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "popercraft:orichalcum_ingot"
+    ]
+  },
+  "criteria": {
+    "has_orichalcum_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "popercraft:orichalcum_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "popercraft:orichalcum_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orichalcum_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

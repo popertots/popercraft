@@ -25,7 +25,7 @@ public class BiomeInit {
     public static final RegistryObject<Biome> CITRUS_BIOME = BIOMES
             .register("citrus_biome",
                     () -> new CitrusBiome(
-                            new Biome.Builder().precipitation(Biome.RainType.RAIN).scale(.01f).temperature(0.5f)
+                            new Biome.Builder().precipitation(Biome.RainType.RAIN).scale(.01f).temperature(0.75f)
                                     .waterColor(0x00abed).waterFogColor(0xafe0e7)
                                     .surfaceBuilder(
                                             new ConfiguredSurfaceBuilder<SurfaceBuilderConfig>(
@@ -35,7 +35,7 @@ public class BiomeInit {
                                                     new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
                                                             Blocks.DIRT.getDefaultState(),
                                                             Blocks.STONE.getDefaultState())))
-                                    .category(Biome.Category.FOREST).downfall(0.025f).depth(0.125f).parent(null)));
+                                    .category(Biome.Category.FOREST).downfall(0.5f).depth(0.125f).parent(null)));
 
     public static void registerBiomes() {
         registerBiome(CITRUS_BIOME.get(), Type.FOREST, Type.OVERWORLD);

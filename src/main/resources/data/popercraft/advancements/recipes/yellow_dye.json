@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "popercraft:yellow_dye"
+    ]
+  },
+  "criteria": {
+    "has_lemon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "popercraft:lemon"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "popercraft:yellow_dye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lemon",
+      "has_the_recipe"
+    ]
+  ]
+}

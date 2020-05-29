@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "popercraft:block/lime_pressure_plate" },
+    "powered=true": { "model": "popercraft:block/lime_pressure_plate_down" }
+  }
+}

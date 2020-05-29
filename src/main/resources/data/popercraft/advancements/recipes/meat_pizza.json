@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "popercraft:meat_pizza"
+    ]
+  },
+  "criteria": {
+    "has_pizza": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "popercraft:pizza"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "popercraft:meat_pizza"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pizza",
+      "has_the_recipe"
+    ]
+  ]
+}

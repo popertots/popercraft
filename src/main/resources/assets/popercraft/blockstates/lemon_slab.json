@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "popercraft:block/lemon_slab" },
+    "type=top": { "model": "popercraft:block/lemon_slab_top" },
+    "type=double": { "model": "popercraft:block/lemon_planks" }
+  }
+}

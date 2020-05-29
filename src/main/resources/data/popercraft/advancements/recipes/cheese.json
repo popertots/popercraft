@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "popercraft:cheese"
+    ]
+  },
+  "criteria": {
+    "has_milk_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "popercraft:milk_bowl"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "popercraft:cheese"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_milk_bowl",
+      "has_the_recipe"
+    ]
+  ]
+}

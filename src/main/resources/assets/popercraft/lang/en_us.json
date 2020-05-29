@@ -8,17 +8,42 @@
   "item.popercraft.ring_item": "Ring",
   "item.popercraft.endrium": "Endrium",
 
+  "item.popercraft.hard_snowball": "Hard Snowball",
+  "item.popercraft.imbued_mithril_ingot": "Imbued Mithril Ingot",
+  "item.popercraft.ooze_crystal": "Ooze Crystal",
+
+
+  "item.popercraft.mithril_helmet": "Mithril Helmet",
+  "item.popercraft.mithril_chestplate": "Mithril Chestplate",
+  "item.popercraft.mithril_leggings": "Mithril Leggings",
+  "item.popercraft.mithril_boots": "Mithril Boots",
+  "item.popercraft.malachite_helmet": "Malachite Helmet",
+  "item.popercraft.malachite_chestplate": "Malachite Chestplate",
+  "item.popercraft.malachite_leggings": "Malachite Leggings",
+  "item.popercraft.malachite_boots": "Malachite Boots",
+  "item.popercraft.orichalcum_helmet": "Orichalcum Helmet",
+  "item.popercraft.orichalcum_chestplate": "Orichalcum Chestplate",
+  "item.popercraft.orichalcum_leggings": "Orichalcum Leggings",
+  "item.popercraft.orichalcum_boots": "Orichalcum Boots",
+
   "block.popercraft.mithril_ore": "Mithril Ore",
   "block.popercraft.malachite_ore": "Malachite Ore",
   "block.popercraft.orichalcum_ore": "Orichalcum Ore",
   "block.popercraft.endrium_ore": "Endrium Ore",
+
+  "item.popercraft.iron_bow": "Iron Bow",
+  "item.popercraft.gold_bow": "Gold Bow",
+  "item.popercraft.diamond_bow": "Diamond Bow",
+  "item.popercraft.wither_bow": "Wither Bow",
 
   "block.popercraft.mithril_block": "Mithril Block",
   "block.popercraft.malachite_block": "Malachite Block",
   "block.popercraft.orichalcum_block": "Orichalcum Block",
   "block.popercraft.endrium_block": "Endrium Block",
 
-  "block.popercraft.citrus_leaves": "Citrus Leaves",
+  "block.popercraft.lemon_leaves": "Lemon Leaves",
+  "block.popercraft.orange_leaves": "Orange Leaves",
+  "block.popercraft.lime_leaves": "Lime Leaves",
   "block.popercraft.lemon_log": "Lemon Log",
   "block.popercraft.lemon_planks": "Lemon Planks",
   "block.popercraft.lemon_sapling": "Lemon Sapling",
@@ -29,7 +54,29 @@
   "block.popercraft.lime_planks": "Lime Planks",
   "block.popercraft.lime_sapling": "Lime Sapling",
 
-  
+  "block.popercraft.lemon_stairs": "Lemon Stairs",
+  "block.popercraft.lemon_fence": "Lemon Fence",
+  "block.popercraft.lemon_button": "Lemon Button",
+  "block.popercraft.lemon_pressure_plate": "Lemon Pressure Plate",
+  "block.popercraft.lemon_slab": "Lemon Slab",
+
+  "block.popercraft.orange_stairs": "Orange Stairs",
+  "block.popercraft.orange_fence": "Orange Fence",
+  "block.popercraft.orange_button": "Orange Button",
+  "block.popercraft.orange_pressure_plate": "Orange Pressure Plate",
+  "block.popercraft.orange_slab": "Orange Slab",
+
+  "block.popercraft.lime_stairs": "Lime Stairs",
+  "block.popercraft.lime_fence": "Lime Fence",
+  "block.popercraft.lime_button": "Lime Button",
+  "block.popercraft.lime_pressure_plate": "Lime Pressure Plate",
+  "block.popercraft.lime_slab": "Lime Slab",
+
+  "block.popercraft.lemon_door": "Lemon Door",
+  "block.popercraft.orange_door": "Orange Door",
+  "block.popercraft.lime_door": "Lime Door",
+
+
   "item.popercraft.mithril_sword": "Mithril Sword",
   "item.popercraft.mithril_pickaxe": "Mithril Pickaxe",
   "item.popercraft.mithril_shovel": "Mithril Shovel",
@@ -56,6 +103,10 @@
   "item.popercraft.orange": "Orange",
   "item.popercraft.lime": "Lime",
 
-  "biome.popercraft.citrus_biome": "Citrus Forrest"
+  "biome.popercraft.citrus_biome": "Citrus Forrest",
 
+  "entities.popercraft.mod_slime": "Gray Slime",
+  "entities.popercraft.mod_snowman": "Hostile Snowman",
+
+  "enchantment.popercraft.last_chance": "Last Chance"
 }

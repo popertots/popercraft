@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BiB",
+    "iIi",
+    "BiB"
+  ],
+  "key": {
+    "i": {
+      "item": "popercraft:diamond_bow"
+    },
+    "I": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "popercraft:wither_bow"
+  }
+}

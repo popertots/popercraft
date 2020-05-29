@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "popercraft:blocks/orange_oak_door_bottom",
+    "top": "popercraft:blocks/orange_oak_door_top"
+  }
+}

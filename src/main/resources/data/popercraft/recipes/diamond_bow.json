@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BiB",
+    "iIi",
+    "BiB"
+  ],
+  "key": {
+    "i": {
+      "item": "popercraft:gold_bow"
+    },
+    "I": {
+      "item": "minecraft:diamond_block"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "popercraft:diamond_bow"
+  }
+}

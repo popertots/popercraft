@@ -16,7 +16,7 @@ public class LimeTree extends Tree {
 
     public static final TreeFeatureConfig LIME_TREE_CONFIG = (new TreeFeatureConfig.Builder(
             new SimpleBlockStateProvider(BlockInit.lime_log.get().getDefaultState()),
-            new SimpleBlockStateProvider(BlockInit.citrus_leaves.get().getDefaultState()),
+            new SimpleBlockStateProvider(BlockInit.lime_leaves.get().getDefaultState()),
             new BlobFoliagePlacer(3, 0))).baseHeight(6).heightRandA(2).foliageHeight(3).ignoreVines()
             .setSapling((IPlantable) BlockInit.lime_sapling.get()).build();
 

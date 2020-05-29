@@ -1,8 +1,7 @@
 package com.popertots.popercraft;
 
-import com.popertots.popercraft.init.BiomeInit;
-import com.popertots.popercraft.init.BlockInit;
-import com.popertots.popercraft.init.ItemInit;
+import com.popertots.popercraft.init.*;
+import com.popertots.popercraft.world.entity_spawns.SnowmanSpawn;
 import com.popertots.popercraft.world.gen.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -43,10 +42,11 @@ public class Popercraft
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::doClientStuff);
 
+        EnchantmentInit.ENCHANTMENTS.register(modEventBus);
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
         BiomeInit.BIOMES.register(modEventBus);
-
+        ModEntityTypes.ENTITY_TYPES.register(modEventBus);
         instance = this;
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -77,6 +77,9 @@ public class Popercraft
     	malachiteOreGen.generateOre();
         orichalcumOreGen.generateOre();
         endriumOreGen.generateOre();
+
+        SnowmanSpawn.generateSpawn();
+
 //        LemonTreeGen.generateTrees();
 //        OrangeTreeGen.generateTrees();
 //        LimeTreeGen.generateTrees();

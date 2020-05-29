@@ -6,8 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "popercraft:endrium",
-          "count": 9
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            }],
+          "name": "popercraft:endrium"
         }
       ]
     }

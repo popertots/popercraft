@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "popercraft:malachite_block"
+    ]
+  },
+  "criteria": {
+    "has_malachite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "popercraft:malachite_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "popercraft:malachite_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_malachite_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

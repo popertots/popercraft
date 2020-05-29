@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "popercraft:items/wither_bow_pulling_1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "popercraft:blocks/lime_oak_planks"
+  }
+}

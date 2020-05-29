@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BiB",
+    "iIi",
+    "BiB"
+  ],
+  "key": {
+    "i": {
+      "item": "popercraft:iron_bow"
+    },
+    "I": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "popercraft:gold_bow"
+  }
+}

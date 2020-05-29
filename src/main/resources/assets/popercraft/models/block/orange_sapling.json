@@ -1,6 +1,6 @@
 {
 	"parent": "block/cross",
 	"textures": {
-		"cross": "popercraft:blocks/citrus_sapling"
+		"cross": "popercraft:blocks/orange_sapling"
 	}
 }

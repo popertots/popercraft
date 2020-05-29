@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "popercraft:blocks/citrus_sapling"
+    "layer0": "popercraft:blocks/lime_sapling"
   }
 }

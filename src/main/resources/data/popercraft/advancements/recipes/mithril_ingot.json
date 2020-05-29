@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "popercraft:mithril_ingot"
+    ]
+  },
+  "criteria": {
+    "has_mithril_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "popercraft:mithril_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "popercraft:mithril_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mithril_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

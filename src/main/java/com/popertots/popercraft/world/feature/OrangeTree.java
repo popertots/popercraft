@@ -16,7 +16,7 @@ public class OrangeTree extends Tree {
 
     public static final TreeFeatureConfig ORANGE_TREE_CONFIG = (new TreeFeatureConfig.Builder(
             new SimpleBlockStateProvider(BlockInit.orange_log.get().getDefaultState()),
-            new SimpleBlockStateProvider(BlockInit.citrus_leaves.get().getDefaultState()),
+            new SimpleBlockStateProvider(BlockInit.orange_leaves.get().getDefaultState()),
             new BlobFoliagePlacer(3, 0))).baseHeight(6).heightRandA(2).foliageHeight(3).ignoreVines()
             .setSapling((IPlantable) BlockInit.orange_sapling.get()).build();
 

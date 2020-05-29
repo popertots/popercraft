@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "popercraft:blocks/lime_oak_planks"
+  }
+}
